@@ -1,5 +1,6 @@
 ﻿@page "/"
-@using DependencyInjectionExample.Logic;
+@using DependencyInjectionExample.Logic
+@inject ExampleLogic logic
 
 <PageTitle>Index</PageTitle>
 
@@ -14,10 +15,10 @@
 </h3>
 
 @code {
-    private ExampleLogic logic;
+    //private ExampleLogic logic;
 
     protected override void OnInitialized()
     {
-        logic = new();
+        //logic = new();
     }
 }
