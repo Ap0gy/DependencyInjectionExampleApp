@@ -1,6 +1,6 @@
 ﻿namespace DependencyInjectionExample.Logic;
 
-public class ExampleLogic
+public class ExampleLogic : IExampleLogic
 {
     public int Value1 { get; private set; }
 
